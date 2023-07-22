@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header flex">
+            <a href="index.html" class="header__logo logo">
+                <img src="./images/svg/logo.svg" alt="" class="logo__image">
+                <p class="logo__text"><span>NOOMB</span>ADS</p>
+            </a>
+            <button class="lang flex">
+                <img class="lang__flag" src="./images/svg/Flag-ru.svg" alt="">
+                <p class="lang__text">ru</p>
+                <img class="lang__arrow" src="./images/svg/arrow-down.svg" alt="">
+            </button>
+            <ul class="navigation flex">
+                <li class="navigation__link"><a href="index.html">Объявления</a></li>
+                <li class="navigation__link"><a href="allmarket.html">Магазины</a></li>
+                <li class="navigation__link"><a href="services.html">Услуги</a></li>
+                <li class="navigation__link"><a href="blog.html">Блог</a></li>
+            </ul>
+            <div class="btns">
+                <button class="btns__login" href="">Войти</button>
+                <button class="btns__ad" href="">Выставить объявление</button>
+            </div>
+        </header>
+        <div class="head-page flex">
+            <a href="index.html" class="head-page__button flex"><img src="./images/svg/button-arrow-left.svg" alt=""><p>Вернуться на главную</p></a>
+            <div class="crumbs flex">
+                <a href="index.html" class="crumbs__item">Главная</a>
+                <p class="crumbs__item">Магазины</p>
+            </div>
+        </div>
+        <section class="first">
+            <span class="first__span flex"><img src="./images/svg/Star-purple.svg" alt=""><p>КРУПНЕЙШАЯ ДОСКА БЕСПЛАТНЫХ ОБЪЯВЛЕНИЙ</p></span>
+            <h1 class="first__head">Все магазины <span>(132)</span></h1>
+            <div class="find find-allmarket flex">
+                <button class="find__categories">
+                    <p>Все категории</p> 
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.6667 5.66667L8 10.3333L3.33334 5.66667" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="pop-up-categories pop-up">
+                    <div class="pop-up__container">
+                        <div class="pop-up-background"></div>
+                        <div id="pop-up-categories" class="pop-up__body">
+                            <div class="pop-up-close"><img src="./images/svg/popup-close.svg" alt=""></div>
+                            <h2>Категории</h2>
+                            <div class="pop-up-categories__items">
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                                <div class="pop-up-categories__item flex">
+                                    <div class="pop-up-categories-house"><img src="./images/svg/house.svg" alt=""></div>
+                                    <div class="pop-up-categories-text">
+                                        <div class="pop-up-categories-top flex">
+                                            <h4>Недвижимость</h4>
+                                            <span>10 000+</span>
+                                        </div>
+                                        <p>Квартиры, дома и многое другое</p>
+                                    </div>
+                                    <img class="pop-up-categories-arrow" src="./images/svg/arrow-right.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="find__form" action="">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="9.80547" cy="9.8055" r="7.49047" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.0153 15.4043L17.9519 18.3333" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <input class="find__input" placeholder="Например: Квартира в Эстонии..." type="text">
+                </form>
+                <button class="find__regions flex">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0833 8.75038C12.0833 7.59932 11.1506 6.66663 10.0004 6.66663C8.84935 6.66663 7.91666 7.59932 7.91666 8.75038C7.91666 9.9006 8.84935 10.8333 10.0004 10.8333C11.1506 10.8333 12.0833 9.9006 12.0833 8.75038Z" stroke="#23262F" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99959 17.5C9.00086 17.5 3.75 13.2486 3.75 8.80274C3.75 5.3222 6.54758 2.5 9.99959 2.5C13.4516 2.5 16.25 5.3222 16.25 8.80274C16.25 13.2486 10.9983 17.5 9.99959 17.5Z" stroke="#23262F " stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>Все регионы</p>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.6667 5.66667L8 10.3333L3.33334 5.66667"  stroke="#23262F" stroke-width="1.5" stroke-opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="pop-up-regions pop-up">
+                    <div class="pop-up__container">
+                        <div class="pop-up-background"></div>
+                        <div id="pop-up-regions" class="pop-up__body">
+                            <div class="pop-up-close"><img src="./images/svg/popup-close.svg" alt=""></div>
+                            <h2>Регионы</h2>
+                            <form class="pop-up-regions__form" action="">
+                                <button class="pop-up-regions__svg">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="9.80547" cy="9.8055" r="7.49047" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15.0153 15.4043L17.9519 18.3333" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>  
+                                <input class="pop-up-regions__input" type="text" placeholder="Введите первые три буквы..." name="" id="">
+                            </form>
+                            <div class="pop-up-regions__items">
+                                <div class="pop-up-regions__item">
+                                    <span>В</span><p>Вильяндимаа</p>
+                                </div>
+                                <div class="pop-up-regions__item">
+                                    <span>В</span><p>Вильяндимаа</p>
+                                </div>
+                                <div class="pop-up-regions__item">
+                                    <span>В</span><p>Вильяндимаа</p>
+                                </div>
+                                <div class="pop-up-regions__item">
+                                    <span>В</span><p>Вильяндимаа</p>
+                                </div>
+                                <div class="pop-up-regions__item">
+                                    <span>В</span><p>Вильяндимаа</p>
+                                </div>
+                                <div class="pop-up-regions__item">
+                                    <span>В</span><p>Вильяндимаа</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="find__search"><img src="./images/svg/Search.svg" alt=""></button>
+            </div>
+        </section>
+        <section class="seller">
+            <div class="seller__head flex">
+                <div class="person flex">
+                    <img src="./images/Profile.png" alt="">
+                        <div>
+                            <p class="person__name">Tech Pro</p>
+                            <p class="person__rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84 отзыва)</span></p>
+                        </div>
+                </div>
+                <button class="flex">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.9178 7.3761L11.2151 10.387C10.5155 10.942 9.53122 10.942 8.83164 10.387L5.09766 7.3761" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0901 17.5001C16.6245 17.5071 18.3327 15.4247 18.3327 12.8654V7.1418C18.3327 4.58248 16.6245 2.50012 14.0901 2.50012H5.90863C3.37417 2.50012 1.66602 4.58248 1.66602 7.1418V12.8654C1.66602 15.4247 3.37417 17.5071 5.90863 17.5001H14.0901Z" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>Написать</p>
+                </button>
+            </div>
+            <div class="seller__cards">
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button class="seller__all flex">
+                <p>Cмотреть все</p>
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.666 7.81718L3.66602 7.81718" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.63281 3.80095L13.6661 7.81695L9.63281 11.8336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </section>
+        <section class="seller">
+            <div class="seller__head flex">
+                <div class="person flex">
+                    <img src="./images/Profile.png" alt="">
+                        <div>
+                            <p class="person__name">Tech Pro</p>
+                            <p class="person__rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84 отзыва)</span></p>
+                        </div>
+                </div>
+                <button class="flex">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.9178 7.3761L11.2151 10.387C10.5155 10.942 9.53122 10.942 8.83164 10.387L5.09766 7.3761" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0901 17.5001C16.6245 17.5071 18.3327 15.4247 18.3327 12.8654V7.1418C18.3327 4.58248 16.6245 2.50012 14.0901 2.50012H5.90863C3.37417 2.50012 1.66602 4.58248 1.66602 7.1418V12.8654C1.66602 15.4247 3.37417 17.5071 5.90863 17.5001H14.0901Z" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>Написать</p>
+                </button>
+            </div>
+            <div class="seller__cards">
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="card.html" class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <div class="card__item__bookmark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7389 6.15368C19.7389 3.40281 17.8582 2.30005 15.1504 2.30005H8.79151C6.16694 2.30005 4.20003 3.32762 4.20003 5.97022V20.694C4.20003 21.4198 4.98098 21.877 5.61356 21.5221L11.9955 17.9422L18.3223 21.5161C18.9559 21.873 19.7389 21.4158 19.7389 20.689V6.15368Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.27121 9.02811H15.5895" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="card__item__labels">
+                        <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                        <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                    </div>
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button class="seller__all flex">
+                <p>Cмотреть все</p>
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.666 7.81718L3.66602 7.81718" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.63281 3.80095L13.6661 7.81695L9.63281 11.8336" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </section>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="footer flex">
+                <a href="index.html" class="footer__logo logo">
+                    <img src="./images/svg/logo.svg" alt="" class="logo__image">
+                    <p class="logo__text"><span>NOOMB</span>ADS</p>
+                </a>
+                <ul class="footer__nav">
+                    <li class="footer__nav-link"><a href="">Главная</a></li>
+                    <li class="footer__nav-link"><a href="">Магазины</a></li>
+                    <li class="footer__nav-link"><a href="">Помощь</a></li>
+                    <li class="footer__nav-link"><a href="">Объявления</a></li>
+                    <li class="footer__nav-link"><a href="">Услуги</a></li>
+                    <li class="footer__nav-link"><a href="">Главная</a></li>
+                </ul>
+                <div class="footer__partners flex">
+                    <img class="footer__partners-1" src="./images/Partner_1.png" alt="">
+                    <svg class="footer__partners-divider" width="2" height="64" viewBox="0 0 2 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.610596" y1="0.365234" x2="0.610593" y2="63.6343" stroke="#23262F" stroke-opacity="0.1"/>
+                    </svg>
+                    <img class="footer__partners-2" src="./images/Partner_2.png" alt="">
+                    <svg class="footer__partners-divider" width="2" height="64" viewBox="0 0 2 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.610596" y1="0.365234" x2="0.610593" y2="63.6343" stroke="#23262F" stroke-opacity="0.1"/>
+                    </svg>
+                    <img class="footer__partners-3" src="./images/Partner_3.png" alt="">
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2022 NOOMBADS LLC. All rights reserved</p>
+        </div>      
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

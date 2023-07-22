@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header flex">
+            <a href="index.html" class="header__logo logo">
+                <img src="./images/svg/logo.svg" alt="" class="logo__image">
+                <p class="logo__text"><span>NOOMB</span>ADS</p>
+            </a>
+            <button class="lang flex">
+                <img class="lang__flag" src="./images/svg/Flag-ru.svg" alt="">
+                <p class="lang__text">ru</p>
+                <img class="lang__arrow" src="./images/svg/arrow-down.svg" alt="">
+            </button>
+            <ul class="navigation flex">
+                <li class="navigation__link"><a href="index.html">Объявления</a></li>
+                <li class="navigation__link"><a href="allmarket.html">Магазины</a></li>
+                <li class="navigation__link"><a href="services.html">Услуги</a></li>
+                <li class="navigation__link"><a href="blog.html">Блог</a></li>
+            </ul>
+            <div class="btns">
+                <button class="btns__login" href="">Войти</button>
+                <button class="btns__ad" href="">Выставить объявление</button>
+            </div>
+        </header>
+        <div class="head-page flex">
+            <a href="index.html" class="head-page__button flex"><img src="./images/svg/button-arrow-left.svg" alt=""><p>Вернуться на главную</p></a>
+            <div class="crumbs flex">
+                <a href="index.html" class="crumbs__item">Главная</a>
+                <a href="index.html" class="crumbs__item">Объявления</a>
+                <a href="index.html" class="crumbs__item">Недвижимость</a>
+                <p class="crumbs__item">8723 New York st. Alihey 187921</p>
+            </div>
+        </div>
+        <div class="card-head">
+            <h2>Прекрасный дом<br>с отличным видом</h2>
+            <div class="card-head__info flex">
+                <div class="card-head__geo flex">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>8723 New York st. Alihey 187921</p>            
+                </div>
+                <button class="card-head__button flex">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.159 4.10235C13.159 2.26844 11.9052 1.53326 10.1001 1.53326H5.86079C4.11108 1.53326 2.7998 2.21831 2.7998 3.98005V13.7959C2.7998 14.2798 3.32044 14.5846 3.74216 14.348L7.9968 11.9613L12.2147 14.344C12.6371 14.5819 13.159 14.2771 13.159 13.7926V4.10235Z" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.51367 6.01862H10.3925" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>Добавить в избранное</p>
+                </button>
+            </div>
+        </div>
+        <div class="place-card flex">
+            <div class="card__images">
+                <div class="main-image">
+                    <img src="./images/place-card.png" srcset="./images/place-card@2x.png 2x" alt="">
+                </div>
+                <div class="add-images flex">
+                    <div class="add-images__item"><img class="add-images__image active-image" src="./images/place-card.png" srcset="./images/place-card@2x.png 2x" alt=""></div>
+                    <div class="add-images__item"><img class="add-images__image" src="./images/place-card.png" srcset="./images/place-card@2x.png 2x" alt=""></div>
+                    <div class="add-images__item"><img class="add-images__image" src="./images/place-card.png" srcset="./images/place-card@2x.png 2x" alt=""></div>
+                    <div class="add-images__item"><img class="add-images__image" src="./images/place-card.png" srcset="./images/place-card@2x.png 2x" alt=""></div>
+                    <div class="add-images__item"><img class="add-images__image" src="./images/place-card.png" srcset="./images/place-card@2x.png 2x" alt=""></div>
+                </div>
+            </div>
+            <aside class="card__aside">
+                <div class="card-price flex">
+                    <p>$299.00</p>
+                    <span class="discount">$299.00</span>
+                </div>
+                <div class="card-published flex">
+                    <span>Опубликовано:</span>
+                    <p>Сегодня, 21:49</p>
+                    <img src="./images/fire-icon.png" alt="">
+                </div>
+                <div class="card-labels flex">
+                    <div class="card-label label-vip flex"><img src="./images/svg/Star-purple.svg" alt=""><p>VIP</p></div>
+                    <div class="card-label label-discount flex"><img src="./images/svg/discount.svg" alt=""><p>-50%</p></div>
+                </div>
+                <div class="card-seller">
+                    <div class="person flex">
+                        <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="person__name">Tech Pro</p>
+                                <p class="person__rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84 отзыва)</span></p>
+                            </div>
+                    </div>
+                    <div class="card-seller__info">
+                        <div class="lasting flex">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1673 8.00024C14.1673 11.4062 11.4067 14.1669 8.00067 14.1669C4.59466 14.1669 1.83398 11.4062 1.83398 8.00024C1.83398 4.59423 4.59466 1.83356 8.00067 1.83356C11.4067 1.83356 14.1673 4.59423 14.1673 8.00024Z" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.2878 9.96182L7.77441 8.46248V5.23114" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <p>На сайте с 30.01.2022</p>
+                        </div>
+                        <div class="phone flex">
+                            <span class="flex">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.68719 8.31484C10.3466 10.9735 10.9499 7.89772 12.6431 9.58979C14.2756 11.2218 15.2138 11.5487 13.1455 13.6164C12.8865 13.8246 11.2404 16.3294 5.45576 10.5464C-0.329641 4.76257 2.17374 3.11486 2.382 2.85587C4.45527 0.78246 4.7766 1.72615 6.40902 3.35812C8.10227 5.0509 5.0278 5.65618 7.68719 8.31484Z" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>Номер Телефона</p>
+                            </span>
+                            <p class="phone__number">+7 929 184 84 43</p>
+                        </div>
+                        <div class="messenger flex">
+                                <span class="flex">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.68719 8.31484C10.3466 10.9735 10.9499 7.89772 12.6431 9.58979C14.2756 11.2218 15.2138 11.5487 13.1455 13.6164C12.8865 13.8246 11.2404 16.3294 5.45576 10.5464C-0.329641 4.76257 2.17374 3.11486 2.382 2.85587C4.45527 0.78246 4.7766 1.72615 6.40902 3.35812C8.10227 5.0509 5.0278 5.65618 7.68719 8.31484Z" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Номер Телефона</p>
+                                </span>
+                                <p class="messenger__number">+7 929 184 84 43</p>
+                        </div>
+                    </div>
+                    <button class="card-seller__write flex">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7139 12.7132C10.6765 14.7508 7.65952 15.191 5.19062 14.0493C4.82615 13.9025 4.52733 13.7839 4.24326 13.7839C3.452 13.7886 2.46712 14.5558 1.95525 14.0446C1.44338 13.5326 2.21118 12.547 2.21118 11.751C2.21118 11.4668 2.09728 11.1734 1.95056 10.8082C0.808228 8.33967 1.24908 5.32171 3.28651 3.28472C5.88741 0.682873 10.113 0.682873 12.7139 3.28405C15.3195 5.88992 15.3148 10.112 12.7139 12.7132Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.6262 8.27523H10.6322" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.95338 8.27523H7.95938" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.28053 8.27523H5.28653" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Написать продавцу</p>
+                    </button>
+                    <button class="card-seller__booking flex">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.18815 8.31488C10.8475 10.9735 11.4508 7.89777 13.1441 9.58983C14.7765 11.2218 15.7147 11.5488 13.6465 13.6164C13.3874 13.8246 11.7414 16.3295 5.95673 10.5464C0.17134 4.76263 2.67472 3.11492 2.88297 2.85593C4.95624 0.782523 5.27757 1.72621 6.90999 3.35818C8.60323 5.05096 5.52876 5.65624 8.18815 8.31488Z" stroke="#23262F" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Забронировать Звонок</p>
+                    </button>
+                </div>
+                <div class="card-info flex">
+                    <div class="views flex">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6344 10.0442C12.6344 11.4992 11.4544 12.6784 9.99941 12.6784C8.5444 12.6784 7.36523 11.4992 7.36523 10.0442C7.36523 8.58835 8.5444 7.40918 9.99941 7.40918C11.4544 7.40918 12.6344 8.58835 12.6344 10.0442Z" stroke="#23262F" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.9977 16.129C13.171 16.129 16.0735 13.8473 17.7077 10.044C16.0735 6.24066 13.171 3.95898 9.9977 3.95898H10.001C6.82769 3.95898 3.92519 6.24066 2.29102 10.044C3.92519 13.8473 6.82769 16.129 10.001 16.129H9.9977Z" stroke="#23262F" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>224 просмотра</p>
+                    </div>
+                    <div class="saves flex">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4491 5.12812C16.4491 2.83571 14.8818 1.91675 12.6253 1.91675H7.32624C5.1391 1.91675 3.5 2.77306 3.5 4.97524V17.2451C3.5 17.85 4.1508 18.2309 4.67795 17.9352L9.99626 14.9519L15.2686 17.9302C15.7966 18.2276 16.4491 17.8466 16.4491 17.2409V5.12812Z" stroke="#23262F" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.89258 7.52342H12.9912" stroke="#23262F" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>32 сохранения</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <div class="information-place flex">
+            <div class="information-place__item flex">
+                <img src="./images/svg/info-people.svg" alt="">
+                <div class="information-place__text">
+                    <span>Проживает</span>
+                    <p>3 человека</p>
+                </div>
+            </div>
+            <div class="information-place__item flex">
+                <img src="./images/svg/info-rooms.svg" alt="">
+                <div class="information-place__text">
+                    <span>Кол-во комнат</span>
+                    <p>4 комнаты</p>
+                </div>
+            </div>
+            <div class="information-place__item flex">
+                <img src="./images/svg/info-location.svg" alt="">
+                <div class="information-place__text">
+                    <span>Время до метро</span>
+                    <p>~15 минут</p>
+                </div>
+            </div>
+        </div>
+        <div class="description-place">
+            <h3>Описание</h3>
+            <p>Described by&nbsp;Queenstown House &amp;&nbsp;Garden magazine as&nbsp;having &rsquo;one of&nbsp;the best views we&rsquo;ve ever seen&rsquo; you will love relaxing in&nbsp;this newly built, architectural house sitting proudly on&nbsp;Queenstown Hill. Enjoy breathtaking 180&prime; views of&nbsp;Lake Wakatipu from your well appointed &amp;&nbsp;privately accessed bedroom with modern en&nbsp;suite and floor-to-ceiling windows.</p>
+            <p>Described by&nbsp;Queenstown House &amp;&nbsp;Garden magazine as&nbsp;having &rsquo;one of&nbsp;the best views we&rsquo;ve ever seen&rsquo; you will love relaxing in&nbsp;this newly built, architectural house sitting proudly on&nbsp;Queenstown Hill.</p>
+            <p>Enjoy breathtaking 180&prime; views of&nbsp;Lake Wakatipu from your well appointed &amp;&nbsp;privately accessed bedroom with modern en&nbsp;suite and floor-to-ceiling windows and other cool stuff that you&rsquo;ll like we&nbsp;guess.</p>
+        </div>
+        <div class="geo-place">
+            <h3>New York 140512</h3>
+            <span class="flex">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z" stroke="#23262F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p>8723 New York st. Alihey 187921</p>
+            </span>
+            <img src="./images/geo-place.png" srcset="./images/geo-place@2x.png 2x" alt="">
+        </div>
+        <section class="recommend">
+            <div class="vip__head flex">
+                <h2>Рекомендуем</h2>
+                <div class="flex">
+                    <img class="vip__slider-next" src="./images/svg/arrow_round-left.svg" alt="">
+                    <img class="vip__slider-prev" src="./images/svg/arrow_round-right.svg" alt="">
+                </div>
+            </div>
+            <div class="vip__cards">
+                <div class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__item">
+                    <img class="card__item__image" src="./images/card-image.png" srcset="./images/card-image@2x.png 2x" alt="">
+                    <h4>Apple Macbook Pro 16” 512GB 10 core</h4>
+                    <span class="card__item__geo flex"><img src="./images/svg/Location.svg" alt=""><p>Россия, Москва</p></span>
+                    <p class="card__item__price">$2999</p>
+                    <div class="card-foot flex">
+                        <div class="card-foot__nick flex">
+                            <img src="./images/Profile.png" alt="">
+                            <div>
+                                <p class="name">Ali M.</p>
+                                <p class="star-rating flex"><img src="./images/svg/Star-rating.svg" alt="">4.9 <span>(84)</span></p>
+                            </div>
+                        </div>
+                        <div class="card-foot__info">
+                            <p class="info__status">Опубликовано</p>
+                            <div class="flex">
+                                <img src="./images/fire-icon.png" alt="">
+                                <p class="info__time">Сегодня, 21:54</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="button_seeall flex">
+                <p>Смотреть все</p>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.458 9.77157H3.95801" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.416 4.75116L16.4577 9.77116L11.416 14.792" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </section>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="footer flex">
+                <a href="index.html" class="footer__logo logo">
+                    <img src="./images/svg/logo.svg" alt="" class="logo__image">
+                    <p class="logo__text"><span>NOOMB</span>ADS</p>
+                </a>
+                <ul class="footer__nav">
+                    <li class="footer__nav-link"><a href="">Главная</a></li>
+                    <li class="footer__nav-link"><a href="">Магазины</a></li>
+                    <li class="footer__nav-link"><a href="">Помощь</a></li>
+                    <li class="footer__nav-link"><a href="">Объявления</a></li>
+                    <li class="footer__nav-link"><a href="">Услуги</a></li>
+                    <li class="footer__nav-link"><a href="">Главная</a></li>
+                </ul>
+                <div class="footer__partners flex">
+                    <img class="footer__partners-1" src="./images/Partner_1.png" alt="">
+                    <svg class="footer__partners-divider" width="2" height="64" viewBox="0 0 2 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.610596" y1="0.365234" x2="0.610593" y2="63.6343" stroke="#23262F" stroke-opacity="0.1"/>
+                    </svg>
+                    <img class="footer__partners-2" src="./images/Partner_2.png" alt="">
+                    <svg class="footer__partners-divider" width="2" height="64" viewBox="0 0 2 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.610596" y1="0.365234" x2="0.610593" y2="63.6343" stroke="#23262F" stroke-opacity="0.1"/>
+                    </svg>
+                    <img class="footer__partners-3" src="./images/Partner_3.png" alt="">
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2022 NOOMBADS LLC. All rights reserved</p>
+        </div>      
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
