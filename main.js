@@ -26,19 +26,25 @@ document.querySelector('.categories__slider-prev').addEventListener('click', fun
 
 // POP UP 
 
+const body = document.querySelector('body');
+const closePopupCategories = document.querySelector('.pop-up-categories-close');
+const closePopupRegions = document.querySelector('.pop-up-regions-close');
+const BackgroundPopup = document.querySelector('.pop-up-background');
+
 const OpenPopupCategories = document.querySelector('.find__categories');
-const closePopup = document.querySelector('.pop-up-close')
-const PopupCategories = document.querySelector('.pop-up-categories')
-const body = document.querySelector('body')
-const BackgroundPopup = document.querySelector('.pop-up-background')
+const PopupCategories = document.querySelector('.pop-up-categories');
+
+const OpenPopupRegions = document.querySelector('.find__regions');
+const PopupRegions = document.querySelector('.pop-up-regions');
 
 OpenPopupCategories.addEventListener('click', function(e) {
     e.preventDefault();
     PopupCategories.classList.add('active');
     body.classList.add('ofh');
+    console.log('Открылось1')
 })
 
-closePopup.addEventListener('click', function() {
+closePopupCategories.addEventListener('click', function() {
     PopupCategories.classList.remove('active');
     body.classList.remove('ofh');
 })
@@ -50,18 +56,15 @@ BackgroundPopup.addEventListener('click', function() {
 
 // POP UP REGIONS
 
-const OpenPopupRegions = document.querySelector('.find__regions')
-const PopupRegions = document.querySelector('.pop-up-regions')
 
 OpenPopupRegions.addEventListener('click', function(e) {
     e.preventDefault();
     PopupRegions.classList.add('active');
     body.classList.add('ofh');
-    console.log('Нажалась1')
+    console.log('Открылось');
 })
 
-closePopup.addEventListener('click', function() {
-    console.log('Нажалась2')
+closePopupRegions.addEventListener('click', function() {
     PopupRegions.classList.remove('active');
     body.classList.remove('ofh');
 })
